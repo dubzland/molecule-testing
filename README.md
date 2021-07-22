@@ -8,17 +8,9 @@
 For testing Ansible playbooks and roles on Gitlab CI.  Includes the following
 Python versions (installed via [asdf](https://asdf-vm.com)):
 
-- 3.6.12
-- 3.6.13
 - 3.6.14
-- 3.7.9
-- 3.7.10
 - 3.7.11
-- 3.8.9
-- 3.8.10
 - 3.8.11
-- 3.9.4
-- 3.9.5
 - 3.9.6
 
 ## Tags
