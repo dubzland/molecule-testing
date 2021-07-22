@@ -16,7 +16,9 @@ RUN apk add --no-cache \
 		zlib-dev && \
 	source $HOME/.asdf/asdf.sh && \
 	for p in $install_python_versions; do \
-		asdf install python $p; \
+		asdf install python $p && \
+		asdf shell python $p && \
+		pip install wheel; \
 	done && \
 	asdf global python $global_python_version && \
 	pip install tox tox-asdf && \
