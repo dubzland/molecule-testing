@@ -8,13 +8,13 @@
 For testing Ansible playbooks and roles on Gitlab CI.  Includes the following
 Python versions (installed via [asdf](https://asdf-vm.com)):
 
-- 3.6.14
-- 3.7.11
-- 3.8.11
-- 3.9.6
+- 3.8.13
+- 3.9.13
+- 3.10.6
 
 ## Tags
 
+- [1.1.0](https://git.dubzland.net/dubzland/molecule-testing/blob/1.1.0/Dockerfile): Tracks upstream ([asdf-alpine:1.1.0](https://git.dubzland.net/dubzland/asdf-alpine/blob/1.1.0/Dockerfile))
 - [1.0.0](https://git.dubzland.net/dubzland/molecule-testing/blob/1.0.0/Dockerfile): Tracks upstream ([asdf-alpine:1.0.0](https://git.dubzland.net/dubzland/asdf-alpine/blob/1.0.0/Dockerfile))
 
 ## License
