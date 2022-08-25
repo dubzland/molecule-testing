@@ -11,8 +11,6 @@ LABEL org.label-schema.name="jdubz/molecule-testing"
 LABEL org.label-schema.description="Alpine with asdf-managed build tools"
 LABEL org.label-schema.vcs-url="https://git.dubzland.net/dubzland/molecule-testing/"
 
-ENV TOX_WORK_DIR="/work/.tox"
-
 RUN source $ASDF_DIR/asdf.sh && \
 	for p in $install_python_versions; do \
 		asdf install python $p && \
